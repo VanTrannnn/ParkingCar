@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\unityGame\\CarParking_\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|C:\\unityGame\\CarParking_\\assets\\scripts\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|C:\\unityGame\\CarParking_\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|c:\\unitygame\\carparking_\\assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|C:\\unityGame\\CarParking_\\assets\\scripts\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|C:\\unityGame\\CarParking_\\assets\\scripts\\park.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\park.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|C:\\unityGame\\CarParking_\\assets\\scripts\\linedrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linedrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|c:\\unitygame\\carparking_\\assets\\scripts\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|C:\\unityGame\\CarParking_\\assets\\scripts\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|C:\\unityGame\\CarParking_\\assets\\scripts\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|C:\\unityGame\\CarParking_\\assets\\scripts\\raycastdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7644616F-8840-848A-07D2-669F836F11C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\raycastdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\Car.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Car.cs",
+              "ToolTip": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\Car.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Car.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwDYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T17:32:21.202Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuManager.cs",
+              "DocumentMoniker": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuManager.cs",
+              "ToolTip": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\MenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuManager.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T16:10:47.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T11:44:20.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\Game.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game.cs",
+              "ToolTip": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\Game.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T22:45:44.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LineDrawer.cs",
+              "DocumentMoniker": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\LineDrawer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LineDrawer.cs",
+              "ToolTip": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\LineDrawer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LineDrawer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T17:11:06.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserInput.cs",
+              "DocumentMoniker": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\UserInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UserInput.cs",
+              "ToolTip": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\UserInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UserInput.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T15:27:12.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RaycastDetector.cs",
+              "DocumentMoniker": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\RaycastDetector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RaycastDetector.cs",
+              "ToolTip": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\RaycastDetector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RaycastDetector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T15:08:42.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Route.cs",
+              "DocumentMoniker": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\Route.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Route.cs",
+              "ToolTip": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\Route.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Route.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T17:34:47.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Park.cs",
+              "DocumentMoniker": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\Park.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Park.cs",
+              "ToolTip": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\Park.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Park.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T17:34:43.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Line.cs",
+              "DocumentMoniker": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\Line.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Line.cs",
+              "ToolTip": "C:\\unityGame\\CarParking_\\Assets\\Scripts\\Line.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Line.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowC4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T17:30:07.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

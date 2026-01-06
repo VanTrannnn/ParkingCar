@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 using DG.Tweening;
-using UnityEngine.Rendering.Universal;
-using UnityEngine.Rendering;
 
 public class Car : MonoBehaviour
 {
@@ -13,9 +11,7 @@ public class Car : MonoBehaviour
     [SerializeField] Rigidbody rb;
     [SerializeField] float danceValue;
     [SerializeField] float durationMultiplier;
-
-
-
+    private bool hasCollided = false;
     public void SetColor(Color color)
     {
         meshRenderer.sharedMaterials[0].color = color;
@@ -25,12 +21,17 @@ public class Car : MonoBehaviour
     {
         bodyTransform.DOLocalMoveY(danceValue, .15f)
             .SetLoops(-1,LoopType.Yoyo)
-            .SetEase(Ease.Linear);
+            .SetEase(Ease.Linear)
+            .SetLink(gameObject);
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.transform.TryGetComponent(out Car otherCar))
+        // Prevent multiple collision events from the same car
+        if (hasCollided) return;
+        
+        if(collision.transform.TryGetComponent(out Car otherCar) || collision.gameObject.CompareTag("block"))
         {
+            hasCollided = true;
             StopDancingAnim();
             rb.DOKill(false);
             Vector3 hitPoint = collision.contacts[0].point;
@@ -55,11 +56,19 @@ public class Car : MonoBehaviour
     {
         rb.DOLocalPath(path, 2f * durationMultiplier * path.Length)
             .SetLookAt(.1f, false)
-            .SetEase(Ease.Linear);
+            .SetEase(Ease.Linear)
+            .SetLink(gameObject);
     }
     public void StopDancingAnim()
     {
         bodyTransform.DOKill(true);
+    }
+
+    private void OnDestroy()
+    {
+        // Kill all tweens on this object to prevent errors when object is destroyed
+        bodyTransform.DOKill();
+        rb.DOKill();
     }
 
     // Update is called once per frame

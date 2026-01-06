@@ -3,6 +3,8 @@ using UnityEngine.UI;
 using DG.Tweening;
 using Unity.VisualScripting;
 using System;
+using UnityEngine.SceneManagement;
+using TMPro;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] LineDrawer lineDrawer;
@@ -15,8 +17,21 @@ public class UIManager : MonoBehaviour
     [Space]
     [SerializeField] Image fadePanel;
     [SerializeField] float fadeDuration;
-
+    [SerializeField] TextMeshProUGUI levelText;
+    [SerializeField] Image onOffSoundButton;
     private Route activeRoute;
+    private void Awake()
+    {
+        levelText.text = SceneManager.GetActiveScene().name;
+        if (AudioManager.InstanceAudio != null && AudioManager.InstanceAudio.isMuted)
+        {
+            onOffSoundButton.color = Color.gray;
+        }
+        else
+        {
+            onOffSoundButton.color = Color.white;
+        }
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -58,6 +73,22 @@ public class UIManager : MonoBehaviour
             activeRoute = null;
             availableCanvasGroup.DOFade(0f, .3f).From(1f);
 
+        }
+    }
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void MuteVolume()
+    {
+        AudioManager.InstanceAudio.toggleOnOffSound();
+        if (AudioManager.InstanceAudio.isMuted)
+        {
+            onOffSoundButton.color = Color.gray;
+        }
+        else
+        {
+            onOffSoundButton.color = Color.white;
         }
     }
 

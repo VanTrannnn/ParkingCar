@@ -11,7 +11,10 @@ public class Game : MonoBehaviour
     private int successfulParks;
     public UnityAction<Route> onCarEntersPark;
     public UnityAction onCarCollision;
-
+    public UnityAction onAllCarsMove;
+    [SerializeField] AudioSource carColliderAudio;
+    private bool isGameOver = false;
+    private bool isLevelComplete = false;
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -25,13 +28,20 @@ public class Game : MonoBehaviour
     void Start()
     {
         totalRoutes = transform.GetComponentsInChildren<Route>().Length;
+        isGameOver = false;
+        isLevelComplete = false;
 
         onCarEntersPark += OnCarEntersParkHandler;
         onCarCollision += OnCarCollisionHandler;
     }
     private void OnCarCollisionHandler()
     {
+        // Prevent multiple calls when multiple cars collide at the same time
+        if (isGameOver || isLevelComplete) return;
+        
+        isGameOver = true;
         Debug.Log("game over");
+        AudioManager.InstanceAudio.carColliderSound(carColliderAudio.clip);
         DOVirtual.DelayedCall(2f, () =>
         {
             int currentLevel = SceneManager.GetActiveScene().buildIndex;
@@ -40,10 +50,17 @@ public class Game : MonoBehaviour
     }
     private void OnCarEntersParkHandler(Route route)
     {
+        // Prevent processing if game is already over or level is complete
+        if (isGameOver || isLevelComplete) return;
+        
         route.car.StopDancingAnim();
         successfulParks++;
         if(successfulParks == totalRoutes)
         {
+            // Prevent multiple calls if multiple cars finish at the same time
+            if (isLevelComplete) return;
+            
+            isLevelComplete = true;
             Debug.Log("win");
             int nextLevel = SceneManager.GetActiveScene().buildIndex + 1;
             PlayerPrefs.SetInt("highestLevel", nextLevel);
@@ -67,6 +84,7 @@ public class Game : MonoBehaviour
     {
         foreach (var route in readyRoutes)
             route.car.Move(route.linePoints);
+        onAllCarsMove?.Invoke();
     }
     // Update is called once per frame
     void Update()
